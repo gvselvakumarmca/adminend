@@ -76,28 +76,28 @@ class CI_Email {
 	 *
 	 * @var	string
 	 */
-	public $smtp_host	= 'smtp.mailgun.org';
+	public $smtp_host	= '';
 
 	/**
 	 * SMTP Username
 	 *
 	 * @var	string
 	 */
-	public $smtp_user	= 'galaxygit@dev.galaxyweblinks.com';
+	public $smtp_user	= '';
 
 	/**
 	 * SMTP Password
 	 *
 	 * @var	string
 	 */
-	public $smtp_pass	= 'Dg244504w1UV';
+	public $smtp_pass	= '';
 
 	/**
 	 * SMTP Server port
 	 *
 	 * @var	int
 	 */
-	public $smtp_port	= 25;
+	public $smtp_port	= ;
 
 	/**
 	 * SMTP connection timeout in seconds

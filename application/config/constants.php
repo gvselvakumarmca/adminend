@@ -84,20 +84,8 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-if($_SERVER['HTTP_HOST'] == 'lawbench.com'){
-	define('BCC_MODE','1');
-}
-else{
-	
-	define('BCC_MODE','0');
-}
-if($_SERVER['HTTP_HOST'] == 'lawbench.com' || $_SERVER['HTTP_HOST'] == 'dev2.lawbench.com' || $_SERVER['HTTP_HOST'] == 'localhost'){
-	define('APP_MODE','1');
-}else{
-	define('APP_MODE','0');
-}
 
-define('APP_MAIL_WEBMASTER','girija.g@galaxyweblinks.in');
+define('APP_MAIL_WEBMASTER','admin@admin.com');
 define('APP_MAIL_NAME','Globe');
-define('BCC_MAIL','girija4092@gmail.com');
+define('BCC_MAIL','');
 define('SITE_URL','http://localhost/globe/');
